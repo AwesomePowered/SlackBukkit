@@ -80,7 +80,7 @@ public class Slack extends JavaPlugin implements Listener {
         String b = "payload=" + j.toJSONString();
         return post(b);
     }
-    
+
     /**
      * Send a message to Slack with a custom user icon.
      * @param m The message sent to Slack.

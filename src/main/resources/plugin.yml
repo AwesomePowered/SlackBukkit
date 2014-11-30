@@ -2,9 +2,8 @@ name: Slack
 version: 1.2.0
 description: Link your server to Slack!
 author: CircuitSoft
-website: https://circuitsoft.us
-
-main: us.circuitsoft.slack.Slack
+depends: [BungeeYAML]
+main: us.circuitsoft.slack.SlackBungee
 
 permissions:
     slack.hide.command:
